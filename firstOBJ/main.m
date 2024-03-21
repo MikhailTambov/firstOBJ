@@ -72,23 +72,23 @@
 //    return 0;
 //}
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        int num1 = 100;
-        int num2 = 25;
-        int num3 = 15;
-        
-        int maxNumber = num1;
-        
-        if (num2 > maxNumber) {
-            maxNumber = num2;
-        }
-        
-        if (num3 > maxNumber) {
-            maxNumber = num3;
-        }
-        
-        NSLog(@"Максимальное число: %d", maxNumber);
-    }
-    return 0;
-}
+//int main(int argc, const char * argv[]) {
+//    @autoreleasepool {
+//        int num1 = 100;
+//        int num2 = 25;
+//        int num3 = 15;
+//        
+//        int maxNumber = num1;
+//        
+//        if (num2 > maxNumber) {
+//            maxNumber = num2;
+//        }
+//        
+//        if (num3 > maxNumber) {
+//            maxNumber = num3;
+//        }
+//        
+//        NSLog(@"Максимальное число: %d", maxNumber);
+//    }
+//    return 0;
+//}
