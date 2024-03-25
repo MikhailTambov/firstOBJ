@@ -10,11 +10,7 @@
 @implementation Patient
 
 - (void)takeMedication {
-    NSLog(@"Patient took the medication.");
-}
-
-- (void)patientShouldTakeMedication {
-    [self takeMedication];
+    NSLog(@"Пациент принял лекарство");
 }
 
 @end

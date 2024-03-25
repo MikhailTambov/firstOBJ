@@ -6,15 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DoctorDelegate.h"
 
-@protocol PatientDelegate <NSObject>
+NS_ASSUME_NONNULL_BEGIN
 
-- (void)patientShouldTakeMedication;
-
-@end
-
-@interface Patient : NSObject <PatientDelegate>
-
-- (void)takeMedication;
+@interface Patient : NSObject <DoctorDelegate>
 
 @end
+
+NS_ASSUME_NONNULL_END
+

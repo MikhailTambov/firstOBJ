@@ -10,9 +10,8 @@
 @implementation Doctor
 
 - (void)prescribeMedicationToPatient {
-    if ([self.delegate respondsToSelector:@selector(patientShouldTakeMedication)]) {
-        [self.delegate patientShouldTakeMedication];
-    }
+    NSLog(@"Доктор выписывает лекарство");
+    [self.delegate takeMedication];
 }
 
 @end

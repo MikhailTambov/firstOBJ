@@ -9,8 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol PatientDelegate <NSObject>
-- (void) prescribeMedicationToPatient;
+@protocol DoctorDelegate <NSObject>
+- (void) takeMedication;
 @end
 
 NS_ASSUME_NONNULL_END

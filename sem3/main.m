@@ -13,8 +13,8 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Doctor *doctor = [Doctor new];
         Patient *patient = [Patient new];
-        Patient.delegate = patient;
-        [Patient prepareHomework];
+        doctor.delegate = patient;
+        [doctor prescribeMedicationToPatient];
     }
     return 0;
 }
