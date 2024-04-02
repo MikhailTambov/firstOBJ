@@ -12,6 +12,8 @@
 		DDAF79EB2BB1B45E003A7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF79EA2BB1B45E003A7654 /* main.m */; };
 		DDAF79EF2BB1B57F003A7654 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF79EE2BB1B57F003A7654 /* Doctor.m */; };
 		DDAF79F22BB1B5AD003A7654 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF79F12BB1B5AD003A7654 /* Patient.m */; };
+		DDAF79F52BBC536A003A7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF79F42BBC536A003A7654 /* main.m */; };
+		DDAF79F82BBC541F003A7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF79F72BBC541F003A7654 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,8 @@
 		DDAF79EE2BB1B57F003A7654 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		DDAF79F02BB1B59E003A7654 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 		DDAF79F12BB1B5AD003A7654 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		DDAF79F42BBC536A003A7654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDAF79F72BBC541F003A7654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		DDAF79D42BA5FA97003A7654 = {
 			isa = PBXGroup;
 			children = (
+				DDAF79F62BBC5410003A7654 /* sem4 */,
+				DDAF79F32BBC533E003A7654 /* sem5 */,
 				DDAF79E92BB1B41C003A7654 /* sem3 */,
 				DDAF79DF2BA5FA97003A7654 /* firstOBJ */,
 				DDAF79DE2BA5FA97003A7654 /* Products */,
@@ -86,6 +92,22 @@
 				DDAF79EA2BB1B45E003A7654 /* main.m */,
 			);
 			path = sem3;
+			sourceTree = "<group>";
+		};
+		DDAF79F32BBC533E003A7654 /* sem5 */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF79F42BBC536A003A7654 /* main.m */,
+			);
+			path = sem5;
+			sourceTree = "<group>";
+		};
+		DDAF79F62BBC5410003A7654 /* sem4 */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF79F72BBC541F003A7654 /* main.m */,
+			);
+			path = sem4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +171,8 @@
 				DDAF79EB2BB1B45E003A7654 /* main.m in Sources */,
 				DDAF79F22BB1B5AD003A7654 /* Patient.m in Sources */,
 				DDAF79EF2BB1B57F003A7654 /* Doctor.m in Sources */,
+				DDAF79F52BBC536A003A7654 /* main.m in Sources */,
+				DDAF79F82BBC541F003A7654 /* main.m in Sources */,
 				DDAF79E12BA5FA97003A7654 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

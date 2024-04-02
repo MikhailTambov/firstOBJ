@@ -1,20 +1,20 @@
+////
+////  Doctor.h
+////  firstOBJ
+////
+////  Created by Михаил Тамбов on 25.03.2024.
+////
 //
-//  Doctor.h
-//  firstOBJ
+//#import <Foundation/Foundation.h>
+//#import "DoctorDelegate.h"
+//NS_ASSUME_NONNULL_BEGIN
 //
-//  Created by Михаил Тамбов on 25.03.2024.
+//@interface Doctor : NSObject
 //
-
-#import <Foundation/Foundation.h>
-#import "DoctorDelegate.h"
-NS_ASSUME_NONNULL_BEGIN
-
-@interface Doctor : NSObject
-
-@property (nonatomic, weak, nullable) id<DoctorDelegate> delegate;
-
-- (void)prescribeMedicationToPatient;
-
-@end
-
-NS_ASSUME_NONNULL_END
+//@property (nonatomic, weak, nullable) id<DoctorDelegate> delegate;
+//
+//- (void)prescribeMedicationToPatient;
+//
+//@end
+//
+//NS_ASSUME_NONNULL_END

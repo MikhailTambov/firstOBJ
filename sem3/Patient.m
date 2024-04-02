@@ -1,16 +1,16 @@
+////
+////  Patient.m
+////  firstOBJ
+////
+////  Created by Михаил Тамбов on 25.03.2024.
+////
 //
-//  Patient.m
-//  firstOBJ
+//#import "Patient.h"
 //
-//  Created by Михаил Тамбов on 25.03.2024.
+//@implementation Patient
 //
-
-#import "Patient.h"
-
-@implementation Patient
-
-- (void)takeMedication {
-    NSLog(@"Пациент принял лекарство");
-}
-
-@end
+//- (void)takeMedication {
+//    NSLog(@"Пациент принял лекарство");
+//}
+//
+//@end

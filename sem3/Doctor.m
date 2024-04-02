@@ -1,17 +1,17 @@
+////
+////  Doctor.m
+////  firstOBJ
+////
+////  Created by Михаил Тамбов on 25.03.2024.
+////
 //
-//  Doctor.m
-//  firstOBJ
+//#import "Doctor.h"
 //
-//  Created by Михаил Тамбов on 25.03.2024.
+//@implementation Doctor
 //
-
-#import "Doctor.h"
-
-@implementation Doctor
-
-- (void)prescribeMedicationToPatient {
-    NSLog(@"Доктор выписывает лекарство");
-    [self.delegate takeMedication];
-}
-
-@end
+//- (void)prescribeMedicationToPatient {
+//    NSLog(@"Доктор выписывает лекарство");
+//    [self.delegate takeMedication];
+//}
+//
+//@end

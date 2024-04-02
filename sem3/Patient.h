@@ -1,18 +1,18 @@
+////
+////  Patient.h
+////  firstOBJ
+////
+////  Created by Михаил Тамбов on 25.03.2024.
+////
 //
-//  Patient.h
-//  firstOBJ
+//#import <Foundation/Foundation.h>
+//#import "DoctorDelegate.h"
 //
-//  Created by Михаил Тамбов on 25.03.2024.
+//NS_ASSUME_NONNULL_BEGIN
 //
-
-#import <Foundation/Foundation.h>
-#import "DoctorDelegate.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface Patient : NSObject <DoctorDelegate>
-
-@end
-
-NS_ASSUME_NONNULL_END
-
+//@interface Patient : NSObject <DoctorDelegate>
+//
+//@end
+//
+//NS_ASSUME_NONNULL_END
+//
