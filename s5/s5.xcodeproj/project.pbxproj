@@ -14,6 +14,7 @@
 		DDAF7A3A2BBC685D003A7654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAF7A392BBC685D003A7654 /* Assets.xcassets */; };
 		DDAF7A3D2BBC685D003A7654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAF7A3B2BBC685D003A7654 /* LaunchScreen.storyboard */; };
 		DDAF7A402BBC685D003A7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF7A3F2BBC685D003A7654 /* main.m */; };
+		DDAF7A482BBC68A4003A7654 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF7A472BBC68A4003A7654 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		DDAF7A3C2BBC685D003A7654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAF7A3E2BBC685D003A7654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDAF7A3F2BBC685D003A7654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDAF7A462BBC68A4003A7654 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DDAF7A472BBC68A4003A7654 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				DDAF7A3B2BBC685D003A7654 /* LaunchScreen.storyboard */,
 				DDAF7A3E2BBC685D003A7654 /* Info.plist */,
 				DDAF7A3F2BBC685D003A7654 /* main.m */,
+				DDAF7A462BBC68A4003A7654 /* SecondViewController.h */,
+				DDAF7A472BBC68A4003A7654 /* SecondViewController.m */,
 			);
 			path = s5;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAF7A482BBC68A4003A7654 /* SecondViewController.m in Sources */,
 				DDAF7A352BBC685C003A7654 /* ViewController.m in Sources */,
 				DDAF7A2F2BBC685C003A7654 /* AppDelegate.m in Sources */,
 				DDAF7A402BBC685D003A7654 /* main.m in Sources */,

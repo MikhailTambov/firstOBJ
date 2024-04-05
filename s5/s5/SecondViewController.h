@@ -6,11 +6,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SecondViewController : NSObject
+@interface SecondViewController : UIViewController
+
+@property (strong, nonatomic) UITextField *textField1;
+@property (strong, nonatomic) UITextField *textField2;
 
 @end
+
 
 NS_ASSUME_NONNULL_END
