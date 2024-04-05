@@ -14,6 +14,8 @@
 		DDAF7A622BC01F4A003A7654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAF7A612BC01F4A003A7654 /* Assets.xcassets */; };
 		DDAF7A652BC01F4A003A7654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAF7A632BC01F4A003A7654 /* LaunchScreen.storyboard */; };
 		DDAF7A682BC01F4A003A7654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF7A672BC01F4A003A7654 /* main.m */; };
+		DDAF7A702BC01F6B003A7654 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF7A6F2BC01F6B003A7654 /* Robot.m */; };
+		DDAF7A732BC0203B003A7654 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF7A722BC0203B003A7654 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		DDAF7A642BC01F4A003A7654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDAF7A662BC01F4A003A7654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDAF7A672BC01F4A003A7654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDAF7A6E2BC01F6B003A7654 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		DDAF7A6F2BC01F6B003A7654 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		DDAF7A712BC0203B003A7654 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DDAF7A722BC0203B003A7654 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +73,15 @@
 				DDAF7A592BC01F49003A7654 /* SceneDelegate.m */,
 				DDAF7A5B2BC01F49003A7654 /* ViewController.h */,
 				DDAF7A5C2BC01F49003A7654 /* ViewController.m */,
+				DDAF7A712BC0203B003A7654 /* SecondViewController.h */,
+				DDAF7A722BC0203B003A7654 /* SecondViewController.m */,
 				DDAF7A5E2BC01F49003A7654 /* Main.storyboard */,
 				DDAF7A612BC01F4A003A7654 /* Assets.xcassets */,
 				DDAF7A632BC01F4A003A7654 /* LaunchScreen.storyboard */,
 				DDAF7A662BC01F4A003A7654 /* Info.plist */,
 				DDAF7A672BC01F4A003A7654 /* main.m */,
+				DDAF7A6E2BC01F6B003A7654 /* Robot.h */,
+				DDAF7A6F2BC01F6B003A7654 /* Robot.m */,
 			);
 			path = sem6;
 			sourceTree = "<group>";
@@ -146,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAF7A732BC0203B003A7654 /* SecondViewController.m in Sources */,
 				DDAF7A5D2BC01F49003A7654 /* ViewController.m in Sources */,
 				DDAF7A572BC01F49003A7654 /* AppDelegate.m in Sources */,
 				DDAF7A682BC01F4A003A7654 /* main.m in Sources */,
 				DDAF7A5A2BC01F49003A7654 /* SceneDelegate.m in Sources */,
+				DDAF7A702BC01F6B003A7654 /* Robot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

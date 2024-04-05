@@ -6,11 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Robot.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface SecondViewController : NSObject
+@interface SecondViewController: UIViewController
 
 @end
 
-NS_ASSUME_NONNULL_END
